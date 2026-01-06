@@ -24,3 +24,7 @@ WITH (
 );
 
 SELECT * FROM info_leak;
+
+## Impact
+
+This vulnerability affects all current versions of the CrateDB database. Attackers who exploit this vulnerability to obtain sensitive information may carry out further attacks, while also affecting CrateDB Cloud Clusters.
